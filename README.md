@@ -3,11 +3,6 @@
 A PyTorch implementation of **Foreground-Aware Contrastive Regression with
 Replay (FA-CRR-Sync)** for synchronized-diving action quality assessment.
 
-FA-CRR-Sync uses Live and Replay1 RGB streams together with their foreground
-masks. RGB and mask I3D features are fused by sigmoid gating, then processed by
-the contrastive regression with replay (CRR) framework for score and
-synchronization assessment.
-
 <p align="center">
   <img src="images/pipeline.png" alt="FA-CRR-Sync pipeline" width="90%" />
 </p>
