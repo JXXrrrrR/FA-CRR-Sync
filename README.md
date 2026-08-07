@@ -1,6 +1,6 @@
 # FA-CRR-Sync
 
-A PyTorch implementation of **Foreground-Aware Contrastive Regression with Replay (FA-CRR-Sync)** for synchronized-diving action quality assessment.
+A PyTorch implementation of **Seeing Synchronization across Views: Replay-Guided Relative Action Quality Assessment of Synchronized Diving** (FA-CRR-Sync) for synchronized-diving action quality assessment.
 
 <p align="center">
   <img src="images/pipeline.png" alt="FA-CRR-Sync pipeline" width="90%" />
