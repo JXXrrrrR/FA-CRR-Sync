@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fa-crr-sync"
+version = "0.1.0"
+description = "Foreground-aware contrastive regression with replay for synchronized-diving AQA"
+requires-python = ">=3.10,<3.11"
+dependencies = [
+  "numpy>=2.0,<3",
+  "Pillow>=10,<13",
+  "PyYAML>=6.0,<7",
+  "scipy>=1.10,<2",
+  "torch>=2.0",
+  "torchvision>=0.15",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"

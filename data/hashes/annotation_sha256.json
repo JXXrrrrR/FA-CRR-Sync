@@ -1,0 +1,22 @@
+{
+  "coarse_annotation": {
+    "path": "annotation/check/coarse_anno/coarse_annotation_Synchro.pkl",
+    "sha256": "2d1dae03a3cda0f729bde9098ce4b1e716769325fc7a310e1a40540851bceafa",
+    "bytes": 122765
+  },
+  "fine_annotation": {
+    "path": "annotation/check/fine-grained_anno/fine-grained_annotation_Synchro.pkl",
+    "sha256": "2d7cf6aa83053b4cbdf29aebaaf39fe309d9652c699adb3d022b0511c922428d",
+    "bytes": 743656
+  },
+  "train_split": {
+    "path": "annotation/check/fine-grained_anno/train_split_Synchro.pkl",
+    "sha256": "6ef6c60cb5d65620824822c0cbf815063a21b225be4f16edecebd48fdbca0368",
+    "bytes": 4661
+  },
+  "test_split": {
+    "path": "annotation/check/fine-grained_anno/test_split_Synchro.pkl",
+    "sha256": "0685d4b71d0e690a6e73eb95a63426840e452855335c225bf5e1c39a5881cc5d",
+    "bytes": 1515
+  }
+}

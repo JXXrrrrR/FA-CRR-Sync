@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Environments and local configuration
+.venv/
+.env
+*.local.yaml
+
+# Editors and OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Large/generated experiment artifacts
+outputs/**
+!outputs/.gitkeep
+*.pth
+!checkpoints/i3d_kinetics400_rgb.pth
+*.pt
+*.ckpt
+*.onnx
+wandb/
+runs/
+
+# Data must remain external; only manifests and reports are tracked
+data/cache/
+data/frames/
+data/videos/
+data/masks/

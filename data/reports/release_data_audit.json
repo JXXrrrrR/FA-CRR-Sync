@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0",
+  "manifest_sha256": "7d35476ea2c1db7487d5ae02ba5672ddf24b959ffae619d4e58fe2b0d20f30f8",
+  "samples": 665,
+  "split_counts": {
+    "test": 165,
+    "train": 450,
+    "validation": 50
+  },
+  "frame_counts": {
+    "live": 71721,
+    "replay1": 110187,
+    "live_mask": 71721,
+    "replay1_mask": 110405
+  },
+  "suffix_counts": {
+    "live": {
+      ".jpg": 71721
+    },
+    "replay1": {
+      ".jpg": 110187
+    },
+    "live_mask": {
+      ".jpg": 71721
+    },
+    "replay1_mask": {
+      ".jpg": 110405
+    }
+  },
+  "missing_paths": [],
+  "alignment_failures": [
+    {
+      "sample_id": "Synchro_006/1",
+      "pair": "replay1:replay1_mask"
+    },
+    {
+      "sample_id": "Synchro_006/11",
+      "pair": "replay1:replay1_mask"
+    },
+    {
+      "sample_id": "Synchro_006/12",
+      "pair": "replay1:replay1_mask"
+    },
+    {
+      "sample_id": "Synchro_006/13",
+      "pair": "replay1:replay1_mask"
+    },
+    {
+      "sample_id": "Synchro_014/7",
+      "pair": "replay1:replay1_mask"
+    },
+    {
+      "sample_id": "Synchro_017/55",
+      "pair": "replay1:replay1_mask"
+    }
+  ],
+  "release_ready": false
+}

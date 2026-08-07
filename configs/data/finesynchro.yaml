@@ -1,0 +1,24 @@
+dataset:
+  name: FineSynchro
+  # Paths are resolved from the FA_CRR_Sync repository root.
+  root: ../FineSynchro_Final_Data
+  annotation_root: annotations
+  live_root: rgb/live
+  replay1_root: rgb/replay1
+  live_mask_root: masks/live
+  replay_mask_root: masks/replay1
+  mask_provenance: existing_segmentation_output
+
+protocol:
+  split: finesynchro_450_50_165_seed0_release
+  train_samples: 450
+  validation_samples: 50
+  test_samples: 165
+  total_samples: 665
+  competition_disjoint: false
+
+views:
+  live: required
+  replay1: required
+  live_mask: required_for_fa_model
+  replay_mask: required_for_fa_model
